@@ -68,7 +68,7 @@ const About = () => {
                   cursor-pointer'>
                 X
              </button>
-                </div>
+             </div>
             </div>
            )
         }
