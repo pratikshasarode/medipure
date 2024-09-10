@@ -101,15 +101,17 @@ const Contact = () => {
                                focus:ring-red-100 shadow' />
                           </div>
                           <div className='flex sm:flex-row flex-col gap-4'>
-                               <input 
-                               onChange={e => setPhone(e.target.value)}
-                               type="tel" placeholder='Contact Number' className='w-full p-4 rounded-md focus:outline-none focus:ring 
-                               focus:ring-red-100 shadow' />
-                               <input 
-                               onChange={e => setCountry(e.target.value)}
-                               type="text" placeholder='Country' className='w-full p-4 rounded-md focus:outline-none 
-                               focus:ring 
-                               focus:ring-red-100 shadow' />
+                            <input 
+                            onChange={e => setPhone(e.target.value)}
+                            type="tel" placeholder='Contact Number' className='w-full p-4 rounded-md
+                            focus:outline-none focus:ring 
+                           focus:ring-red-100 shadow' />
+                           <input 
+                           onChange={e => setCountry(e.target.value)}
+                           type="text" placeholder='Country' className='w-full p-4 rounded-md
+                           focus:outline-none 
+                           focus:ring 
+                         focus:ring-red-100 shadow' />
                         </div>
                          <textarea 
                           onChange={e => setMessage(e.target.value)}

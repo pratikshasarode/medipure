@@ -50,9 +50,11 @@ const Footer = () => {
          <div className='space-y-6'>
             <h3 className='text-xl font-semibold mb-4'>Support</h3>
             <ul className='space-y-3'>
-          <li>
+
+              <li>
               <a href="#faq" className='hover:underline text-gray-700'>FAQs</a>
               </li>
+              
               <li><a href="#terms of service"  className='hover:underline text-gray-700'>Term Of Service</a></li>
               <li><a href="#Privacy policy" className='hover:underline text-gray-700'>Privacy Policy</a></li>
               <li><a href="#support center" className='hover:underline text-gray-700'>Sapport Center</a></li>
@@ -62,10 +64,12 @@ const Footer = () => {
           <div className='space-y-6'>
               <h3 className='text-xl font-semibold mb-4'>Contact Info</h3>
               <ul className='space-y-3'>
+
               <li className='flex items-center gap-2'>
                  <FaMapMarkedAlt className= 'text-red-300'/>
                  <p className='text-gray-700'>123 street, city, country</p>
               </li>
+
               <li className='flex items-center gap-2'>
                   <FaSquarePhone className='text-red-300'/>
                   <p className='text-gray-700'>+123 456 7890</p>
@@ -73,8 +77,9 @@ const Footer = () => {
                   <li className='flex items-center gap-2'>
                   <FaEnvelope className='text-red-300'/>
                   <p className='text-gray-700'>info@medipure.com</p>
-             </li>
-             </ul>
+               </li>
+
+            </ul>
          </div>
       </div>
     </div>
